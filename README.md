@@ -17,6 +17,23 @@ Avalon transforms scattered medical knowledge into actionable intelligence acros
 
 ---
 
+## Tech Stack
+
+| Category | Technology |
+|----------|------------|
+| **Frontend** | React, TypeScript, Vite, TailwindCSS, shadcn/ui |
+| **Backend** | Python, FastAPI |
+| **Database** | MongoDB |
+| **AI/LLM** | LM Studio (Local), OpenAI (Cloud - Optional) |
+| **Streaming** | Server-Sent Events (SSE) |
+| **Document Processing** | PDF extraction, CSV parsing |
+| **Report Generation** | ReportLab (PDF), CSV export |
+| **Graph Visualization** | Force-directed graphs, D3.js |
+| **Authentication** | JWT-based session management |
+| **Deployment** | Docker-ready, On-premises compatible |
+
+---
+
 ## Key Features
 
 ### Multi-Agent Intelligence (Fully Implemented)
