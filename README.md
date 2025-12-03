@@ -24,13 +24,12 @@ Avalon transforms scattered medical knowledge into actionable intelligence acros
 | **Frontend** | React, TypeScript, Vite, TailwindCSS, shadcn/ui |
 | **Backend** | Python, FastAPI |
 | **Database** | MongoDB |
-| **AI/LLM** | LM Studio (Local), OpenAI (Cloud - Optional) |
+| **AI/LLM** | LM Studio (Local) |
 | **Streaming** | Server-Sent Events (SSE) |
-| **Document Processing** | PDF extraction, CSV parsing |
-| **Report Generation** | ReportLab (PDF), CSV export |
 | **Graph Visualization** | Force-directed graphs, D3.js |
-| **Authentication** | JWT-based session management |
-| **Deployment** | Docker-ready, On-premises compatible |
+| **Voice Input** | Web Speech API with waveform visualization |
+| **RAG Systems** | Project RAG + Data Source RAG with local embeddings |
+| **Authentication** | JWT-based session management (Currently disabled)
 
 ---
 
@@ -100,11 +99,21 @@ Experience live, token-by-token responses as Avalon processes your queries. The 
 
 Patient Health Information is detected automatically and routed exclusively to local inference engines. Zero PHI data leaves the hospital network, ensuring compliance with HIPAA, GDPR, and other healthcare privacy regulations. The system maintains strict audit trails and access controls.
 
+**PHI Detection Coverage (HIPAA 18 Identifiers):**
+- Patient names and identifiers
+- Social Security Numbers, Medical Record Numbers
+- Dates of birth, phone numbers, email addresses
+- Physical addresses and geographic data
+- Clinical measurements (lab values, vitals with units)
+- Medical history references and diagnoses
+- Prescription and treatment-specific data
+
 **Security Features:**
-- Automatic PHI detection
+- Automatic PHI detection with confidence scoring
 - Local-only processing for sensitive data
-- Complete audit trails
+- Complete audit trails with timeline visualization
 - Zero external data transmission for PHI queries
+- Real-time "Thinking Panel" showing routing decisions
 
 ### Automated Reports (Partially Implemented — requires larger models or enterprise environment)
 
@@ -128,28 +137,48 @@ Organize research activities into dedicated project workspaces. Each workspace m
 - Conversation history tracking
 - Team collaboration support
 
+### Voice-Enabled Research (Fully Implemented)
+
+Avalon provides hands-free pharmaceutical research through an integrated voice system with real-time speech recognition and waveform visualization.
+
+**Voice Features:**
+- Real-time speech-to-text with live transcription
+- Dynamic waveform visualization showing voice input levels
+- Auto-stop on silence detection
+- Dedicated voice chat modal for hands-free sessions
+- Text-to-speech response capability
+
 ### Database Extensions (Fully Implemented)
 
 Link external datasets and data sources to enhance research capabilities. Avalon supports integration with clinical trial databases, patent repositories, market intelligence sources, and custom data sources, enabling comprehensive analysis across multiple information streams.
 
 **Integration Features:**
-- Clinical trial database connectivity
-- Patent database integration
+- Clinical trial database connectivity (ClinicalTrials.gov)
+- Patent database integration (PatentsView API)
+- Publication search (PubMed)
 - Market intelligence data sources
-- Custom data source linking
-- Real-time data retrieval
+- Custom data source linking with local RAG
+- Real-time data retrieval with caching
 
-### Safe-Mode for Patient Queries (Fully Implemented)
+### Intelligent Mode Classification (Fully Implemented)
 
-Avalon intelligently adapts its behavior based on query type. Clinical Safety Mode is automatically activated for patient-specific queries containing PHI, ensuring all processing occurs locally with strict privacy controls. The system provides direct, actionable clinical guidance while maintaining absolute data security.
+Avalon automatically adapts its behavior based on query type through seven specialized modes. The system intelligently detects query intent and routes to the appropriate processing pipeline without requiring user intervention.
 
-**Safety Mode Features:**
-- Automatic PHI detection
-- Local-only processing
-- Clinical decision support
-- Drug interaction checks
-- Dosing recommendations
-- Contraindication analysis
+**Auto-Detected Modes:**
+- **Patient Mode**: Activated for patient-specific queries with PHI, ensuring local-only processing
+- **Safety Mode**: For clinical safety, drug interactions, dosing, and contraindication analysis
+- **Research Mode**: Deep pharmaceutical research with multi-agent orchestration
+- **Table Mode**: Automatically generates comparison tables when "compare", "vs", or "differences" detected
+- **Document Mode**: Processes uploaded PDFs, DOCX, and TXT files with structured insight extraction
+- **Expert Mode**: Builds knowledge graphs and identifies key opinion leaders
+- **Simple Mode**: Quick Q&A responses with concise bullet points for straightforward queries
+
+**Thinking Panel (Fully Implemented):**
+Before any response begins, Avalon displays a real-time "Thinking Panel" showing:
+- PHI detection status and routing decision
+- Mode classification and reason
+- Local vs. Cloud model selection
+- Agent activation preview
 
 ---
 
