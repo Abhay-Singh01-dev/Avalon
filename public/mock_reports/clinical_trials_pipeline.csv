@@ -1,0 +1,11 @@
+Trial ID,Drug Candidate,Therapeutic Area,Phase,Patient Count,Primary Endpoint,Start Date,Est. Completion,Status,Success Rate (%)
+NCT04816643,AZD8601,Cardiovascular,Phase 2,180,LVEF Improvement,2022-03-15,2024-06-30,Active,72.5
+NCT05234567,BMS-986315,Oncology (NSCLC),Phase 3,450,Overall Survival,2021-09-01,2025-03-15,Recruiting,68.3
+NCT04789012,PF-07321332,Infectious Disease,Phase 3,2200,Viral Load Reduction,2021-07-20,2023-12-31,Completed,89.1
+NCT05678901,REGN-EB3,Rare Disease,Phase 2,120,Biomarker Response,2023-01-10,2025-08-20,Active,81.4
+NCT04345678,LY3502970,Metabolic,Phase 2,320,HbA1c Reduction,2022-06-05,2024-11-30,Active,77.8
+NCT05012345,GSK3844766A,Immunology,Phase 1,48,Safety/Tolerability,2023-04-12,2024-07-15,Completed,95.2
+NCT04901234,ABBV-383,Oncology (MM),Phase 1/2,85,ORR,2022-11-18,2024-09-30,Active,62.7
+NCT05567890,TAK-994,Neurology,Phase 2,200,Sleep Latency,2023-02-28,2025-01-15,Recruiting,74.9
+NCT04234567,MK-8591,HIV,Phase 3,380,Viral Suppression,2021-05-10,2024-08-22,Active,91.3
+NCT05890123,JNJ-73763989,Hepatology,Phase 2,150,HBsAg Reduction,2022-08-30,2024-12-10,Active,69.8

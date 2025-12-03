@@ -1,0 +1,11 @@
+Drug Name,AE Category,Incidence (%),Severity,Causality,Action Taken,Outcome,Report Date,Patient Demographics
+Metformin,Gastrointestinal,23.5,Mild,Probable,Dose Reduction,Resolved,2024-01-15,Adults 45-65
+Atorvastatin,Musculoskeletal,8.2,Moderate,Possible,Monitoring,Improved,2024-01-18,Adults 55-75
+Lisinopril,Respiratory,12.1,Mild,Probable,None,Ongoing,2024-01-20,Adults 50-70
+Amlodipine,Peripheral Edema,15.7,Mild,Definite,Dose Adjustment,Resolved,2024-01-22,Adults 60-80
+Omeprazole,Headache,6.3,Mild,Possible,None,Resolved,2024-01-25,Adults 35-55
+Levothyroxine,Cardiac,4.8,Moderate,Probable,Dose Reduction,Improved,2024-01-28,Adults 40-65
+Sertraline,CNS Effects,18.9,Mild,Definite,Monitoring,Ongoing,2024-02-01,Adults 25-45
+Gabapentin,Dizziness,21.4,Mild,Definite,Titration,Resolved,2024-02-05,Adults 55-75
+Montelukast,Neuropsychiatric,3.2,Moderate,Possible,Discontinuation,Resolved,2024-02-08,Pediatric 6-12
+Apixaban,Bleeding,7.6,Serious,Definite,Hospitalization,Recovered,2024-02-10,Adults 70-85

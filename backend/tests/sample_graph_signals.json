@@ -1,0 +1,202 @@
+{
+  "query": "GLP-1 modulation for neuroinflammation",
+  "signals": {
+    "clinical_trials": {
+      "entities": [
+        {
+          "name": "Dr. Sarah Kim",
+          "type": "expert",
+          "affiliations": [
+            "Mayo Clinic"
+          ],
+          "roles": [
+            "principal_investigator"
+          ],
+          "expertise": [
+            "neurology",
+            "neuroinflammation"
+          ],
+          "documents": [
+            "PMID:3748821"
+          ],
+          "trial_ids": [
+            "NCT05587122",
+            "NCT06100211"
+          ]
+        },
+        {
+          "name": "Dr. Lei Tang",
+          "type": "expert",
+          "affiliations": [
+            "MD Anderson Cancer Center"
+          ],
+          "roles": [
+            "medical_director"
+          ],
+          "expertise": [
+            "oncology",
+            "solid tumors"
+          ],
+          "documents": [
+            "PMID:3891222"
+          ],
+          "trial_ids": [
+            "NCT05587122"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "trial_id": "NCT05587122",
+          "title": "Phase II Adaptive Trial",
+          "phase": "Phase II",
+          "investigators": [
+            "Dr. Sarah Kim",
+            "Dr. Lei Tang"
+          ]
+        },
+        {
+          "trial_id": "NCT06100211",
+          "title": "Nerve Repair Study",
+          "phase": "Phase I/II",
+          "investigators": [
+            "Dr. Sarah Kim",
+            "Dr. Arjun Singh"
+          ]
+        },
+        {
+          "trial_id": "NCT05999821",
+          "title": "Neuroinflammation Biomarker Consortium",
+          "phase": "Phase II",
+          "investigators": [
+            "Dr. Delia Owens",
+            "Dr. Arjun Singh"
+          ]
+        }
+      ]
+    },
+    "patents": {
+      "entities": [
+        {
+          "name": "Dr. Mario Rojas",
+          "type": "expert",
+          "affiliations": [
+            "Karolinska Institutet"
+          ],
+          "expertise": [
+            "virology",
+            "rare disease"
+          ],
+          "patent_ids": [
+            "US11823456",
+            "WO2024022111"
+          ]
+        },
+        {
+          "name": "Dr. Isha Sharma",
+          "type": "expert",
+          "affiliations": [
+            "Emory University"
+          ],
+          "expertise": [
+            "metabolic disease"
+          ],
+          "patent_ids": [
+            "US11823456"
+          ]
+        }
+      ],
+      "patents": [
+        {
+          "patent_number": "US11823456",
+          "title": "Combination Therapy for Neuroinflammation",
+          "inventors": [
+            "Dr. Mario Rojas",
+            "Dr. Isha Sharma"
+          ],
+          "authority": "USPTO"
+        },
+        {
+          "patent_number": "WO2024022111",
+          "title": "Glial Modulators",
+          "inventors": [
+            "Dr. Mario Rojas"
+          ],
+          "authority": "WIPO"
+        }
+      ]
+    },
+    "web_intel": {
+      "entities": [
+        {
+          "name": "Dr. Arjun Singh",
+          "type": "expert",
+          "affiliations": [
+            "Stanford Medicine"
+          ],
+          "expertise": [
+            "autoimmune",
+            "immunology"
+          ],
+          "web_ids": [
+            "WEB:001",
+            "WEB:005"
+          ],
+          "aliases": [
+            "Arjun V. Singh"
+          ]
+        },
+        {
+          "name": "Dr. Delia Owens",
+          "type": "expert",
+          "affiliations": [
+            "UCSF"
+          ],
+          "expertise": [
+            "neuroimmunology"
+          ],
+          "web_ids": [
+            "WEB:002"
+          ]
+        },
+        {
+          "name": "Dr. Hannah Blanchard",
+          "type": "expert",
+          "affiliations": [
+            "King's College London"
+          ],
+          "expertise": [
+            "neurodegeneration"
+          ],
+          "web_ids": [
+            "WEB:003"
+          ]
+        },
+        {
+          "name": "Dr. Peter Cho",
+          "type": "expert",
+          "affiliations": [
+            "Seoul National University Hospital"
+          ],
+          "expertise": [
+            "rare neuro disease"
+          ],
+          "web_ids": [
+            "WEB:004"
+          ]
+        },
+        {
+          "name": "Dr. Isha Sharma",
+          "type": "expert",
+          "affiliations": [
+            "Emory University"
+          ],
+          "web_ids": [
+            "WEB:006"
+          ]
+        }
+      ]
+    }
+  }
+}
+
