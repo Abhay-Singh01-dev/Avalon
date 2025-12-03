@@ -355,7 +355,7 @@ Researchers upload clinical protocols, research papers, and internal documents f
 ### Research Insights Table Screenshot
 ![Research Table](/images/Research%20Table.png)
 
-### Expert Network Graph Screenshot
+### Expert Network Graph Screenshot(In Developing Phase)
 ![Expert Network Graph](/images/Expert%20Network%20Graph.png)
 
 ### Report Generation Screenshot of PDF and CSV
@@ -378,14 +378,16 @@ Avalon is built with security and compliance in mind, but organizations should c
 For inquiries about Avalon, enterprise deployments, or partnership opportunities, please contact:
 
 Email: avalon.pharma.ai@gmail.com
+
 linkedin: https://www.linkedin.com/in/abhay-singh-01dev
+
 Website: Coming Soon
 
 -
 
 ## Repository Status
 
-AVALON is a **proprietary enterprise product**.
+Avalon is a **proprietary enterprise product**.
 
 The full source code, backend systems, AI logic, and internal agent workflows are maintained in a private repository and are not publicly available.
 
