@@ -1,0 +1,12 @@
+# Ignore everything by default
+*
+
+# Track README file
+!README.md
+
+# Track images folder
+!images/
+!images/**
+
+# Track this .gitignore itself
+!.gitignore
