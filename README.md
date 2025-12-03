@@ -409,6 +409,6 @@ This repository serves only as a public-facing overview of the AVALON platform.
 
 ---
 
-Copyright 2025 AVALON. All rights reserved.
+Copyright 2025 Avalon. All rights reserved.
 
-**AVALON** — Elevating Healthcare.
+**Avalon** — Elevating Healthcare.
