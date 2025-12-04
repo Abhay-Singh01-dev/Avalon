@@ -26,7 +26,7 @@ Avalon transforms scattered medical knowledge into actionable intelligence acros
 | **Database** | MongoDB |
 | **AI/LLM** | LM Studio (Local) |
 | **Streaming** | Server-Sent Events (SSE) |
-| **Graph Visualization** | Force-directed graphs, D3.js |
+| **Expert Directory** | Enterprise-style expert table with network visualization |
 | **Voice Input** | Web Speech API with waveform visualization |
 | **RAG Systems** | Project RAG + Data Source RAG with local embeddings |
 | **Authentication** | JWT-based session management (Currently disabled)
@@ -80,16 +80,17 @@ Upload PDFs, clinical trial documents, research papers, and internal reports. Av
 - Context-aware analysis
 - Seamless integration with research workflows
 
-### Expert Graphs (Fully Implemented)
+### Expert Directory (Fully Implemented)
 
-Avalon automatically builds knowledge graphs connecting researchers, institutions, clinical trials, and publications. These visual networks reveal collaboration patterns, expertise clusters, and research relationships that would be impossible to discover manually. Interactive graph visualizations help identify key opinion leaders, research gaps, and collaboration opportunities.
+Avalon provides a comprehensive Expert Directory system for identifying and exploring key opinion leaders (KOLs) in pharmaceutical research. The clean, enterprise-style table interface displays expert profiles with institution affiliations, specializations, key contributions, and influence scores.
 
 **Features:**
-- Knowledge graph construction
-- Expert identification and profiling
-- Collaboration network analysis
-- Key opinion leader (KOL) identification
-- Interactive visualization
+- Expert identification and profiling with influence scoring
+- Institution and specialization filtering
+- Searchable directory (name, institution, specialization, contributions)
+- Network view showing collaborators, publications, and clinical trials
+- Key opinion leader (KOL) discovery
+- Interactive stats dashboard (total experts, institutions, trials, average influence)
 
 ### Streaming Responses (Fully Implemented)
 
@@ -170,7 +171,7 @@ Avalon automatically adapts its behavior based on query type through seven speci
 - **Research Mode**: Deep pharmaceutical research with multi-agent orchestration
 - **Table Mode**: Automatically generates comparison tables when "compare", "vs", or "differences" detected
 - **Document Mode**: Processes uploaded PDFs, DOCX, and TXT files with structured insight extraction
-- **Expert Mode**: Builds knowledge graphs and identifies key opinion leaders
+- **Expert Mode**: Accesses expert directory and identifies key opinion leaders
 - **Simple Mode**: Quick Q&A responses with concise bullet points for straightforward queries
 
 **Thinking Panel (Fully Implemented):**
@@ -202,7 +203,7 @@ The **Master Agent** serves as the central orchestrator, performing critical fun
 - Safety & PK/PD: Pharmacological analysis, drug interactions, dosing guidance
 - Web Intelligence: Regulatory updates, guideline identification, publication monitoring
 - Internal Documents: Document processing, insight extraction, context integration
-- Expert Networks: Knowledge graph construction, KOL identification, collaboration mapping
+- Expert Networks: Expert directory access, KOL identification, collaboration mapping
 - EXIM Trends: Supply chain intelligence, manufacturing trends, trade flow analysis
 
 ### Local LLM Execution Layer
@@ -355,8 +356,10 @@ Researchers upload clinical protocols, research papers, and internal documents f
 ### Research Insights Table Screenshot
 ![Research Table](/images/Research%20Table.png)
 
-### Expert Network Graph Screenshot(In Developing Phase)
-![Expert Network Graph](/images/Expert%20Network%20Graph.png)
+### Expert Directory Screenshot
+![Expert Directory](/images/Experts.png)
+
+![Networks](/images/Network.png)
 
 ### Report Generation Screenshot of PDF and CSV
 ![PDF Report](/images/Report%20Generated%20PDF.png)
