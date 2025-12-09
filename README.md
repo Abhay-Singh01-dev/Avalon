@@ -345,7 +345,7 @@ Researchers upload clinical protocols, research papers, and internal documents f
 
 ---
 
-## Screenshots
+## Avalon UI & Interaction Layer
 
 ### Dashboard Screenshot
 ![Dashboard](images/dashboard.png)
@@ -360,6 +360,15 @@ Researchers upload clinical protocols, research papers, and internal documents f
 ![Expert Directory](/images/Experts.png)
 
 ![Networks](/images/Network.png)
+
+### Agent Optimization Panel
+![Agent Settings](/images/Agent%20Settings.png)
+
+### Data Sources Integration
+![Data Sources Integration](/images/Data%20Sources%20Integration.png)
+
+### RAG
+![RAG Optimization](/images/RAG%20Features.png)
 
 ### Report Generation Screenshot of PDF and CSV
 ![PDF Report](/images/Report%20Generated%20PDF.png)
